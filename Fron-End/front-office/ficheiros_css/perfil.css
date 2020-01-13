@@ -1,0 +1,101 @@
+.main_menu .navbar-brand img {
+    max-width: 100px;
+}
+
+.menu_fixed {
+    FONT-VARIANT: JIS90;
+    position: fixed;
+    z-index: 9999 !important;
+    width: 93%;
+    background-color: #fff;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+    top: 0;
+}
+
+.main_menu_iner {
+    padding: 0px 0px;
+}
+
+.fs1 {
+    border: 5px groove #6AAAB7;
+    background-color: #FFFF;
+    text-align: left !important;
+    margin-left: 5px;
+    width: 400px;
+    height: 650px;
+}
+
+.menu2{
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.page-footer.container{
+    position: fixed;
+            z-index: 2;
+            left: 0;
+            background-color: white;
+            height: 10%;
+            width: 20%;
+            bottom: 0;
+            margin: 0px;
+            padding: 0px;
+                       
+}
+
+.control-label{
+    margin-bottom: 0px;
+}
+
+.form-group{
+    margin-bottom: 45px !important;
+    margin-top: 20px !important;
+}
+
+.button2{
+    width: 180px;
+    height: 30px;
+    background-color: rgb(92, 169, 199);
+    border-radius: 4px;
+    border: 2px solid rgb(92, 169, 199);
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    -webkit-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+     float: right;
+
+}
+.button1{
+    width: 180px;
+    height: 30px;
+    background-color: rgb(92, 169, 199);
+    border-radius: 4px;
+    border: 2px solid rgb(92, 169, 199);
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    -webkit-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+    }
+
+.button2:hover {
+    background-color: rgb(223, 223, 223);
+    color: rgb(19, 18, 18);
+  }
+
+.button1:hover {
+    background-color: rgb(223, 223, 223);
+    color: rgb(19, 18, 18);
+  }
+
+  #legenda{
+      text-align: center;
+      color: rgb(13, 132, 179);
+      font-size: 30px;
+    
+      
+  }

@@ -1,0 +1,16 @@
+.h4new {
+    text-align: center !important;
+}
+.descrition { 
+    padding-right: 40px !important; 
+    padding-left: 40px !important;
+    text-align: center !important;
+}
+.sectionmargin {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    text-align: center !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 15px !important;
+    text-align: justify !important;
+}

@@ -1,0 +1,23 @@
+.form-group{
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+#legenda{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #1f5673;
+    font-size: 30px;
+}
+
+
+#canoa1{
+    margin-top: 40px;
+    width:128px;
+    height:128px;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+    
+}
