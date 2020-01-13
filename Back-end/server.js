@@ -1,11 +1,10 @@
 const express = require('express');
 const app = express();
 const con = require('./config/conectMYSQL');
-const port = 3000;
-const serveStatic = require('serve-static')
+const port = process.env.PORT || 8080;
+const host = process.env.HOST || '0.0.0.0';
 
 const path = require('path');
-
 
 con.connect(function(err) {
     if(!err) {
@@ -25,7 +24,7 @@ app.use('/Front-End', express.static('../Fron-End/front-office/'));
 app.use('/assets', express.static('assets'));
 app.use('/views', express.static(path.join('./views/front-office/')));
 
-app.listen(port, function(err) {
+app.listen(port, host, function(err) {
 
         
         con.query('SELECT * FROM tipo', function(err, rows, fields) {  //teste a ir buscar informações à tabela tipo
